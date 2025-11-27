@@ -32,7 +32,7 @@ app.use("/geminiPantry", geminiPantryRouter)
 app.use("/dispensaInvites", dispensaInviteRouter)
 
 app.get("/", (req, res) => {
-  res.send("WORLD OF ARTIFACTS OF POWER")
+  res.send("não é mais o world of artifacts, agora é o foodflow :)")
 })
 
 app.listen(port, () => {
